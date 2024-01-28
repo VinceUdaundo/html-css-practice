@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>05-variables</title>
+</head>
+<body>
+
+ <p>
+  Cart Quantity
+ </p>
+
+ <button onclick="
+ console.log(`Cart Quantity:${cartQuantity}`);
+ ">
+ Show Quantity</button>
+
+ <button onclick="
+ updateCartQuantity (1, 10);
+ ">
+ Add to Cart</button>
+
+ <button onclick="
+  updateCartQuantity (2, 10);
+ ">
+ +2</button>
+
+ <button onclick="
+  updateCartQuantity (3, 10);
+ ">
+ +3</button>
+
+ <button onclick="
+  updateCartQuantity (4, 10);
+ ">
+ +4</button>
+
+ <button onclick="
+  updateCartQuantity (5, 10);
+ ">
+ +5</button>
+
+ <button onclick="
+ cartQuantity = 0;
+ console.log('Cart was Reset.');
+ console.log(`Cart Quantity:${cartQuantity}`);">
+ Reset Cart</button>
+
+ <button onclick="
+ removetoCart(1);
+ ">
+ Remove to Cart</button>
+
+ <button onclick="
+ removetoCart(2);
+ ">
+ -2</button>
+
+ <button onclick="
+ removetoCart(3);
+ ">
+ -3</button>
+
+ <script>
+  let cartQuantity = 0
+
+  function updateCartQuantity(item, max){
+    if (cartQuantity + item > max){
+      alert ('The cart is full');
+      return;
+    }
+    
+  }
+
+  function removetoCart(item){
+    if (cartQuantity - item < cartQuantity){
+      alert('Not enough items in the cart');
+      return;
+    }
+  }
+ 
+ </script>
+
+</body>
+</html>

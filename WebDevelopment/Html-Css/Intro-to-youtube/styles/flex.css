@@ -1,0 +1,11 @@
+.flex {
+ display: flex;
+ flex-direction: row;
+ margin-top: 10px;
+}
+.div1{
+ background-color: lightblue;
+}
+.div2{
+ background-color: lightpink;
+}
