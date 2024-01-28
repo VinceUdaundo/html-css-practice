@@ -1,0 +1,103 @@
+p {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-size: 12px;
+ font-family: Arial;
+}
+.profile{
+ width: 300px;
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+ padding-left: 15px;
+ padding-right: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.dp {
+ width: 50px;
+ height: 50px;
+ object-fit: cover;
+ object-position: center;
+ border-radius: 50px;
+}
+.div-dp, .data,.button {
+ display: inline-block;
+ vertical-align: middle;
+ margin-right: 10px;
+}
+.followbutton{
+ border-style: none;
+ border-radius: 5px;
+ background-color: rgb(68, 168, 250);
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 5px;
+}
+.data {
+width: 143px;
+line-height: 15px;
+}
+.name {
+ font-weight: bold;
+}
+.title ,.status {
+ color: rgba(94, 94, 94, 0.856);
+}
+.d11{
+ display: grid;
+ grid-template-columns: 200px 200px 200px;
+ column-gap: 10px;
+}
+.d11-2{
+ display: grid;
+ grid-template-columns: 25px 1fr;
+ align-items: center;
+ margin-bottom: 4px;
+}
+.oliver-dp {
+ width: 200px;
+ height: 200px;
+ object-fit: cover;
+}
+.nametag {
+ font-weight: bold;
+ margin-top: 2px;
+ margin-bottom: 2px;
+}
+.dog2 {
+ width: 25px;
+ height: 25px;
+ object-fit: cover;
+ border-radius: 100px;
+}
+.par{
+ margin-left: 5px;
+}
+.friendlist {
+ margin-top: 20px;
+ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+ width: 200px;
+ vertical-align: top;
+ border-radius: 2px;
+ display: inline-block;
+ margin-right: 10px;
+}
+.add{
+ display: block;
+ border-style: none;
+ background-color: rgb(68, 168, 250);
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-radius: 4px;
+ margin-bottom: 5px;
+}
+.info {
+ padding-left: 5px;
+ padding-bottom: 3px;
+}

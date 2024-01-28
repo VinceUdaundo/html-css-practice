@@ -1,0 +1,45 @@
+p{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.profile {
+ display: inline-block;
+ width: 200px;
+ border-style: none;
+ box-shadow: 0px 0px 5px rgba(43, 43, 43, 0.25);
+ margin-right: 10px;
+}
+.cat1 {
+ object-fit: cover;
+ object-position: center;
+ margin-bottom: 0px;
+ width: 200px;
+ height: 200px;
+}
+.name {
+ font-weight: bold;
+ font-size: 15px;
+ margin-top: 3px;
+ margin-bottom: 3px;
+ margin-left: 5px;
+}
+.mutual {
+ color: rgba(129, 127, 127, 0.856);
+ font-size: 12px;
+ margin-top: 3px;
+ margin-bottom: 5px;
+ margin-left: 5px;
+}
+.add {
+ font-size: 15px;
+ width: 90px;
+ border-style: none;
+ border-radius: 5px;
+ background-color: rgb(29, 155, 240);
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 5px;
+ margin-bottom: 10px;
+}

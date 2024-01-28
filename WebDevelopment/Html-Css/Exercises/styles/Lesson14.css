@@ -1,0 +1,97 @@
+body {
+ height: 3000px;
+ background-color: rgb(44, 43, 43);
+}
+div{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+}
+.l14a{
+ background-color: green;
+ color: white;
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ top: 0;
+ width: 100px;
+}
+.l14c{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ background-color: rgba(0, 0, 0, 0.5);
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ left: 0;
+}
+.modal{
+ width: 200px;
+ background-color: white;
+ padding: 10px;
+ border-radius: 5px;
+}
+.modal-tittle, .modal-text, .button{
+ padding: 5px;
+}
+.modal-tittle{
+ font-weight: bold;
+ font-size: 15px;
+}
+.discord{
+ display: flex;
+}
+.discord-user-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 2px;
+}
+.discord-scrollbar1{
+ background-color: rgb(51, 51, 53);
+ position: fixed;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ width: 50px;
+}
+.discord-scrollbar2{
+ background-color: rgb(73, 75, 83);
+ width: 150px;
+ position: fixed;
+ left: 50px;
+ top: 0;
+ bottom: 0;
+}
+.discord-user{
+ height: 40px;
+ width: 40px;
+ object-fit: cover;
+ border-radius: 20px;
+ margin: 2px;
+}
+.discord-news{
+ display: flex;
+ flex: 1;
+ justify-content: space-between;
+ margin: 5px;
+}
+.INFO{
+ display: flex;
+ align-items: center;
+ font-weight: bold;
+ color: white;
+}
+.plus{
+ font-size: x-large;
+ color: rgb(233, 232, 238);
+}
+.discord-news-content{
+ margin: 5px;
+}
+.news{
+ color: rgb(206, 207, 207);
+ padding: 3px;
+}
