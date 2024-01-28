@@ -1,0 +1,35 @@
+.cat1 {
+ width: 200px;
+ border-style: none;
+ border-radius: 15px;
+}
+.cat2 {
+ width: 200px;
+ height: 200px;
+ object-fit: cover;
+ object-position: center;
+}
+.cat3 {
+ width: 200px;
+ height: 200px;
+ object-fit: cover;
+ border-radius: 200px;
+}
+.search1 {
+ border-radius: 5px;
+ border-style: solid;
+ border-width: 1px;
+ padding-left: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}.search2 {
+ font-size: 10px;
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ width: 210px;
+ border-radius: 20px;
+ border-style: none;
+ padding-left: 7px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+}
